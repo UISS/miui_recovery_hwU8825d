@@ -8,3 +8,14 @@
 4. 其他，经过修改后的miui recovery源代码见https://github.com/scue/miui_recovery_hwU8950d；
 5. 其他，最初的Miui recovery源代码见https://github.com/MiCode/miui_recovery
 
+
+[English]
+HOW-TO:
+1. sync this repository to $MIUI_RECOVERY_TOPDIR/patch_device/hwU8825d/;
+2. cd $MIUI_RECOVERY_TOPDIR/, type commands as following:
+    . build/envsetup.sh
+    make -j4 u8825d
+3. you can get miui recovery in out/patch_device/u8825d/
+4. otherwise, had modified src: https://github.com/scue/miui_recovery_hwU8950d；
+5. otherwise, origin miui recovery src: https://github.com/MiCode/miui_recovery
+
